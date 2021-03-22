@@ -1,0 +1,129 @@
+a {
+  color: black !important;
+}
+
+.logo {
+  font-family: "Grand Hotel", cursive;
+}
+
+.mycard {
+}
+
+.auth-card {
+  margin: 80px auto;
+  width: 600px;
+  padding: 10px 100px 60px 100px;
+  text-align: center;
+}
+
+.auth-card .logo {
+  margin-left: auto;
+}
+
+/* ======= PROFILE ======== */
+.profile {
+  
+}
+
+.profile-wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.profile-header {
+  display: flex;
+  padding: 18px 80px;
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.gallery {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.item:not(:nth-child(3n)) {
+  margin-right: 20px;
+}
+
+/* ====== HOME ====== */
+
+.home {
+  position: relative;
+}
+
+.progress-bar {
+  height: 3px;
+  background: rgb(255, 3, 3);
+  z-index: 2;
+  transition: width 0.3s linear;
+}
+
+.lol {
+  background: rgb(255, 3, 3);
+  height: 20px;
+  width: 30%;
+}
+
+.home-card {
+  margin: 26px auto;
+  max-width: 700px;
+  height: max-content;
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+#toast-container {
+  top: 30px !important;
+  right: 20px !important; 
+  left: auto !important;
+}
+
+.comments {
+  background: rgb(245, 245, 245);
+
+}
+
+.comment {
+  padding: 10px 20px;
+  border-bottom: 2px solid rgb(219, 219, 219);
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.comment__avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.comment__body {
+  width: 460px;
+  word-wrap:break-word;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment__name {
+  font-weight: 700;
+}
+
+.comment__text {
+
+}
+
+.comment__date {
+  margin-left: auto;
+}
